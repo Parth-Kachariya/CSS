@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* task-1 */
+.bg-color{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(183, 84, 84);
+    text-align: center;
+    
+}
+/* task-2 */
+body{
+    background-image: url(/lecture-7/signup\ 1.jpg);
+}
+/* task-3 */
+.bg-img{
+    /* width: 400px; */
+   /* height: 700px; */
+    background-image: url(/lecture-7/signup\ 1.jpg) , url(./wall\ paper.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+/* task-4 */
+.bg-repeat{
+    background-image: url(./wall\ paper.webp);
+    /* width: 400px;
+    height: 700px; */
+    background-repeat:repeat;
+    background-position: center;
+    
+}
+/* task-5 */
+.bg-no-repeat{
+    background-image: url(/lecture-7/wall\ paper.webp);
+    /* width: 400px;
+    height: 700px; */
+    background-repeat:no-repeat;
+    background-position:top;
+    background-position:right;
+    background-position:left;  
+}
+/* task-6 */
+.bg-atch{
+    background-image: url(/lecture-7/wall\ paper.webp);
+    background-size: cover;
+    background-repeat:no-repeat;
+    /* background-attachment: local; */
+    /* background-attachment: scroll; */
+    background-attachment: fixed;
+}
+
+/* task-7 */
+.respon{
+    background-image: url(/lecture-7/signup\ 1.jpg);
+    width: 100%;
+    height: auto;
+    background-size: cover;
+}
+
+.respon:hover{
+    background-image: url(/lecture-7/wall\ paper.webp);
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    transition-duration: 2s;
+    color: aliceblue;
+
+}
+
+.watermark{
+    background-color: aliceblue;
+    width: 100%;
+    height: auto;
+}
+

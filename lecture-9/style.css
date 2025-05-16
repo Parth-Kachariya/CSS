@@ -1,0 +1,232 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+/* task-1.1 */
+.box1{
+
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    padding: 20px;
+    background-color: tomato;
+    border: 2px solid black;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+}
+/* task-1.2 */
+.box-2{
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    padding: 20px;
+    background-color: rgb(137, 75, 64);
+    border: 2px solid black;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+}
+.box2-1{
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    padding: 15px;
+    background-color: green ;
+    border: 2px solid black;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+}
+/* task-1.3 */
+.box3-1{
+    height: 200px;
+    width: 200px;
+    margin: 20px 30px;
+    padding: 40px 40px;
+    background-color: rgb(77, 44, 39);   
+    border: 2px solid black;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+}
+.box3-2{
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    padding: 20px 30px 40px;
+    background-color: rgb(205, 56, 33);   
+    border: 2px solid black;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+}
+.box3-3{
+    height: 200px;
+    width: 200px;
+    margin: 5px 10px 15px 20px;
+    padding: 20px 30px;
+    background-color: rgb(47, 196, 181);   
+    border: 2px solid black;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+}
+.box-4{
+    height: 200px;
+    width: 200px;
+    margin: auto ;
+    /* padding: 20px 30px; */
+    background-color: rgb(91, 69, 159);   
+    border: 2px solid black;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+}
+/* task-2 */
+.img1{
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+    object-fit: cover;
+    /* object-fit:fill ; */
+    /* object-fit: scale-down; */
+}
+/* object-fit: contain; example */
+.img2{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    /* object-fit: cover; */
+   
+}
+/* object-fit: cover;  example*/
+.img3{
+    width: 200px;
+    height: 200px;
+    /* object-fit: contain; */
+    object-fit: cover;
+   
+}
+
+/* .profile card */
+.profile{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 100%;
+    object-position: 60%;
+}
+
+/* task-3 */
+.profile1{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;  
+    object-position: top left;
+    
+}
+.profile2{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;  
+    object-position: center;
+    
+}
+.profile3{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;  
+    object-position: bottom right;
+    
+}
+.frame{
+    width: 600px;
+    height: 400px;
+    
+}
+.frame img{
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    border: 6px solid red;
+    object-position: 60%;
+}
+/* container task */
+.container{
+    height: 500px;
+    width: 90%;
+    max-width: 1320px;
+    margin: auto;
+    background-color: teal;
+    border: 4px solid black ;
+    justify-content: center;
+    align-items: center;
+}
+/* flexbox container  1 */
+.card{
+    max-width: 800px;
+    margin: auto;
+    display:flex;
+    flex-wrap:wrap;
+    /* justify-content: center; */
+    /* flex-direction: row; */
+    justify-content: space-between;
+    /* justify-content: flex-end; */
+    /* justify-content: flex-start; */
+
+}
+.card1{
+    height: 200px;
+    width: 200px;
+    background-color: slateblue;
+}
+.card2{
+    height: 200px;
+    width: 200px;
+    background-color: darkcyan;
+}
+.card3{
+    height: 200px;
+    width: 200px;
+    background-color: darkorange;
+}
+/* flexbox container  2 */
+.flex-box{
+    display: flex;
+    width: 100%;
+}
+.box70{
+    width: 70%;
+    background-color: sienna;
+    display: inline-block;
+    border: 1px solid black;
+}
+.box30{
+    width:30%;
+    background-color: rgb(255, 38, 0);
+    display: inline-block;
+    border: 1px solid black;
+}
+
