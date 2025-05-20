@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.main-div{
+    display: flex;
+    width: 600px;
+    height: 200px;
+    border: 2px solid black;
+}
+.box-1{
+    width: 300px;
+    flex-shrink: 1;
+    background-color:yellowgreen;
+}
+.box-2{
+    width: 300px;
+    flex-shrink: 1;
+    background-color:lightblue;
+}
+.box-3{
+    width: 300px;
+    flex-shrink: 1;
+    background-color:lightsalmon;
+}

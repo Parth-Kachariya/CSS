@@ -1,0 +1,11 @@
+.box{
+    background-color: tomato;
+    color: white;
+}
+h1,p{
+
+    color: brown;
+}
+.box h1{
+    color: springgreen;
+}
