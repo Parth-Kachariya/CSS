@@ -17,9 +17,9 @@ xl  >=1199px
         padding-inline: 0;
         max-width: 1499px;
     }
-     .craft-text h1{
+     /* .craft-text h1{
         text-wrap: nowrap;
-     }
+     } */
 }
 
 @media (max-width: 1199px) {
@@ -28,9 +28,9 @@ xl  >=1199px
         padding-inline: 0;
         max-width: 1199px;
     }
-     .craft-text h1{
+     /* .craft-text h1{
         text-wrap: nowrap;
-     }
+     } */
 }
 
 @media (max-width: 991px) {
@@ -61,6 +61,8 @@ xl  >=1199px
   }
   
 .flex-container{
+   /* position: sticky;
+        top: 0; */
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -74,6 +76,7 @@ xl  >=1199px
     color: #343F52;
     font-size: 38px;
     margin: auto;
+    text-align: center;
   }
   
 
@@ -146,6 +149,7 @@ xl  >=1199px
     max-width: 600px;
     color: #343f52;
     font-size: 34px;
+    
   }
   .craft-text p {
     max-width: 450px;
