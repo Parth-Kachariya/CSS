@@ -384,9 +384,31 @@ p {
   margin-top: 50px;
   padding: 0 15px;
 }
+
+.service_card_text{
+  text-align: left;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-wrap: wrap;
+  /* display: flex; */
+ 
+}
 .Community_title h4{
   color: black;
   font-weight: bold;
-  font-size: 100px;
+  font-size: 38px;
+  margin-bottom: 15px;
   
+}
+.Community_subtitle{
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.596);
+  margin-bottom: 20px;
+  line-height: 33px;
+}
+.Community_description{
+  font-size: 17px;
+  color: #6e7382;
+ line-height: 28px;
+  margin-bottom: 20px;
 }
