@@ -228,12 +228,14 @@ a {
 
 .service_card_main {
   /* margin-top: 30px; */
-  /* display: flex; */
+  display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   display: flex;
   flex-direction: row;
+   /* display: grid;
+  grid-template-columns: repeat(2, 1fr);  */
 }
 
 .service_card:nth-child(even) {
@@ -635,3 +637,4 @@ p {
   transform: translateY(-50%);
 
 }
+/*Our Recent Projects */
