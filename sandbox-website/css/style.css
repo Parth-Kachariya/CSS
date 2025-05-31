@@ -638,3 +638,76 @@ p {
 
 }
 /*Our Recent Projects */
+
+.recent_projects{
+  
+  object-fit: cover;
+  padding-bottom: 90px;
+  padding-left: 15px; 
+    padding-right: 15px;
+}
+.main_container{
+
+}
+
+.recent_title {
+  font-size: 38px;
+  color: rgb(52, 63, 82);
+  margin-bottom: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.recent_projects_img img {
+    width: 610px;
+    height: 441px;
+    gap: 30px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    object-fit: cover;
+    flex-direction: column;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.recent_projects_img {
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects_icon{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  gap: 10px;
+  cursor: pointer;
+  color: white;
+    
+
+}
+
+.arrow_left{
+  height: 50px;
+  width: 50px;
+  background-color: #747dd16b;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+.arrow_right{
+  height: 50px;
+  width: 50px;
+  background-color: #747ed1e6;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;  
+}
+
+/* Have Perfect Control start */
