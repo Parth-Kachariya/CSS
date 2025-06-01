@@ -646,9 +646,9 @@ p {
   padding-left: 15px; 
     padding-right: 15px;
 }
-.main_container{
+/* .main_container{
 
-}
+} */
 
 .recent_title {
   font-size: 38px;
@@ -711,3 +711,119 @@ p {
 }
 
 /* Have Perfect Control start */
+
+.perfect_control{
+  max-width: 1360px;
+  height: 550px;
+  width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 50px; */
+    gap: 50px;
+}
+
+.perfect_control_img img{
+max-width: 650px;
+height: 500px;
+margin-top: 50px;
+padding: 0 35px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+
+}
+
+.perfect_control_text{
+  /* width: 495px; */
+  /* height: auto; */
+  /* padding: 0 35px; */
+  /* margin-top: 50px; */
+}
+.perfect_heading{
+  font-size: 38px;
+  color: #000000a5;
+  margin-bottom: 20px;
+  /* line-height: 38px; */
+  font-weight: bold;
+  /* letter-spacing: 1px; */
+}
+
+.perfect_title{
+  font-size: 22px;
+  color: #60697bb6;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.perfect_description{
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.622);
+  font-weight: 500;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+.tick_mark{
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: space-between;  */
+  display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      margin-top: 30px;
+}
+
+.tick_mark_1{
+  /* display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      font-size: 16px */
+  /* display: flex; */
+  /* align-items: center;
+  justify-content: space-between;
+  gap: 10px; */
+}
+.tick_mark_2{
+  /* display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      font-size: 16px */
+  /* display: flex; */
+  /* align-items: center;
+  justify-content: space-between;
+  gap: 10px; */
+}
+.tick_mark_3{
+  /* display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      font-size: 16px */
+  /* display: flex; */
+  /* align-items: center;
+  justify-content: space-between;
+  gap: 10px; */
+}
+.tick_mark_4{
+  /* display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      font-size: 16px */
+   /* display: flex; */
+  /*align-items: center;
+  justify-content: space-between;
+  gap: 10px; */
+}
+
+.tick_mark i {
+  color: #6e6bc1;
+  background-color: #6e6bc149;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  font-size: 10px;
+  margin-right: 10px;
+  text-align: center;
+  padding: 5px;
+  
+}
