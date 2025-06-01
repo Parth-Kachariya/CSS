@@ -735,8 +735,8 @@ padding: 0 35px;
 }
 
 .perfect_control_text{
-  /* width: 495px; */
-  /* height: auto; */
+  width: 495px;
+  height: auto;
   /* padding: 0 35px; */
   /* margin-top: 50px; */
 }
@@ -765,57 +765,35 @@ padding: 0 35px;
 }
 
 .tick_mark{
-  /* display: flex; */
+  display: flex;
   /* align-items: center; */
   /* justify-content: space-between;  */
-  display: grid;
+  /* display: grid; */
       grid-template-columns: 1fr 1fr;
       gap: 20px;
       margin-top: 30px;
 }
 
 .tick_mark_1{
-  /* display: flex;
-      align-items: flex-start;
-      gap: 10px;
-      font-size: 16px */
-  /* display: flex; */
-  /* align-items: center;
-  justify-content: space-between;
-  gap: 10px; */
+  display: flex;
+      
 }
 .tick_mark_2{
-  /* display: flex;
-      align-items: flex-start;
-      gap: 10px;
-      font-size: 16px */
-  /* display: flex; */
-  /* align-items: center;
-  justify-content: space-between;
-  gap: 10px; */
+  display: flex;
+     
 }
 .tick_mark_3{
-  /* display: flex;
-      align-items: flex-start;
-      gap: 10px;
-      font-size: 16px */
-  /* display: flex; */
-  /* align-items: center;
-  justify-content: space-between;
-  gap: 10px; */
+  display: flex;
+  
+
 }
 .tick_mark_4{
-  /* display: flex;
-      align-items: flex-start;
-      gap: 10px;
-      font-size: 16px */
-   /* display: flex; */
-  /*align-items: center;
-  justify-content: space-between;
-  gap: 10px; */
+  display: flex;
+      
 }
 
 .tick_mark i {
+  
   color: #6e6bc1;
   background-color: #6e6bc149;
   width: 20px;
@@ -824,6 +802,6 @@ padding: 0 35px;
   font-size: 10px;
   margin-right: 10px;
   text-align: center;
-  padding: 5px;
+  padding: 6px;
   
 }
