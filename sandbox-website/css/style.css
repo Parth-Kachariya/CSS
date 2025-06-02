@@ -868,6 +868,14 @@ a {
 }
 
 /* Happy Customers section start */
+.Customers_details{
+  max-width: 1360px;
+  height: auto;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: center; */
+  margin-bottom: 160px;
+}
 
 .Customers_title h3{
   font-size: 38px;
@@ -875,4 +883,61 @@ a {
   margin-bottom: 40px;
   font-weight: bold;
   text-align: center;
+}
+.star5{
+  color: orange;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.customer_mainbox{
+  width: 1320px;
+  height: auto;
+  display: flex;
+}
+.customer_box1{
+  margin-top:30px ;
+  padding: o 15px;
+  height: 400px;
+  width: 390px;
+  box-shadow:  0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  
+}
+.child_box1{
+  padding: 40px;
+  height: 400px;
+  width: 390px;
+  line-height: 20px;
+}
+
+.data_1{
+  padding-left: 25px;
+
+}
+.child_box1 p{
+  color: #60697b;
+  font-weight: 600;
+  line-height: 35px;
+  font-size: 17px;
+  text-align:left ;
+  margin-bottom: 20px;
+}
+
+.person_img img{
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  margin-right: 20px;
+}
+.person_img{
+  display: flex;
+  /* align-items: center; */
+  /* margin-bottom: 20px; */
+}
+.person_data p{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #000000b1;
 }
