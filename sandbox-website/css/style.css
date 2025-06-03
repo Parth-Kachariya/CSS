@@ -11,9 +11,7 @@
   font-family: "Manrope", sans-serif;
 }
 
-body {
-  /* background-color: #f2f3fb; */
-}
+
 
 ol,
 ul {
@@ -889,7 +887,7 @@ a {
   font-size: 20px;
   margin-bottom: 10px;
 }
-.customer_mainbox1{
+.customer_mainbox-1{
   width: 1320px;
   height: auto;
   display: flex;
@@ -897,7 +895,7 @@ a {
   /* flex-direction: column ; */
 }
 
-.customer_mainbox2{
+.customer_mainbox-2{
   width: 1320px;
   height: auto;
   display: flex;
@@ -1048,3 +1046,101 @@ a {
   
 }
 
+      /* <!-- Subscribe section start --> */
+.Subscribe_box{
+  max-width: 1290px;
+  height: 230px;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  text-align: left;
+  margin-bottom: 80px;
+  padding: 60px;
+}
+
+.Subscribe_box{
+  border: 2px solid #3648e9;
+  border-radius: 10px;
+  background-image: url(/sandbox-website/asset/images/bg-img.jpg);
+  background-size: cover;
+  background-position: center;
+  /* backdrop-filter: brightness(0.8); */
+  filter: brightness(0.8);
+}
+.Subscribe_txt{
+  /* margin-top: 30px; */
+  padding:0 15px;
+  width: 670px;
+  height: auto;
+  color: white;
+  filter: none;
+}
+
+.Subscribe_txt h4{
+  color: white;
+  font-size: 30px;
+    margin-bottom: 10px;
+  font-weight: bold;
+  filter: none;
+
+}
+
+.Subscribe_txt p{
+  color: white;
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  filter: none;
+
+}
+
+.join_form{
+margin-top: 30px;
+margin-left:  100px;
+padding: 0 15px;
+  border: 1px solid #ffffff51;
+  border-radius: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 53px;
+}
+
+.join_form input[type="email"]{
+  width: 70%;
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  font-weight: 300;
+  background: transparent;
+}
+
+.join_form ::placeholder{
+  color: rgba(255, 255, 255, 0.475);
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.join_form  button{
+  cursor: pointer;
+  background-color: #747ED1;
+  width: 25%;
+  padding: 15px 19px;
+  border-radius: 0 10px 10px 0;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+}
+
+form {
+ text-align: right;
+ justify-content: right;
+}
+
+input[type="email"]:focus {
+  outline: none;
+  border: none;
+}
