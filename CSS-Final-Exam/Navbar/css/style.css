@@ -55,20 +55,27 @@
       transform: translateY(-3px);
     }
 
-    .social_icons a i{
-      width: 100px;
-      font-size: 18px;
+    .social_icons  i{
+      font-size: 20px;
       transition: transform 0.3s;
       display: flex;
       gap: 15px;
     }
+    .social_icons{
+      max-width:200px;
+      display: flex;
+      justify-content: space-between;
+    }
 
-    .social_icons a i{
-      width: 100px;
+    .social_icons a {
+      text-decoration: none;
+      width: 90px;
       font-size: 18px;
-      transition: transform 0.3s,;
+       transform: translateY(0px);
+      transition: 0.3s;
     }
 
     .social_icons a:hover {
-      transform: scale(1.2);
+      transform: translateY(-5px);
+    transition: 0.3s transform;
     }
