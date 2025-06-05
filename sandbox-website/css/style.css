@@ -1228,3 +1228,8 @@ hr{
   padding-left: 10px;
  
 }
+
+.rights_reserved p{
+  color: #60697b;
+  font-size: 17px;
+}
