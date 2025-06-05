@@ -1226,10 +1226,15 @@ hr{
   flex-wrap: nowrap;
   margin-right: 10px;
   padding-left: 10px;
- 
+  transform: translateY(0px);
+      transition: 0.3s;
 }
 
 .rights_reserved p{
   color: #60697b;
   font-size: 17px;
+}
+.rights_reserved i:hover{
+  transform: translateY(-5px);
+    transition: 0.3s transform;
 }
