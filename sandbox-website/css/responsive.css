@@ -12,47 +12,55 @@ xl  >=1199px
 */
 
 @media (max-width: 1499px) {
-
-  .container{
-        padding-inline: 0;
-        max-width: 1499px;
-    }
-     /* .craft-text h1{
+  /* .container {
+    padding-inline: 0;
+    max-width: 1499px;
+  } */
+  /* .craft-text h1{
         text-wrap: nowrap;
      } */
+
+    }
+    
+    @media (max-width: 1199px) {
+  /* recent-project section*/
+  .recent_projects_img img {
+ height: 380px;
+ max-width: 480px;
+ object-fit: cover;
+ border-radius: 20px;
+ display: flex;
+ height: auto;
+ gap: 30px;
+ border-radius: 10px;
+ flex-wrap: wrap;
+ object-fit: cover;
+ flex-direction: column;
 }
-
-@media (max-width: 1199px) {
-
-  .container{
-        padding-inline: 0;
-        max-width: 1199px;
-    }
-     /* .craft-text h1{
-        text-wrap: nowrap;
-     } */
+.recent_projects_img {
+ margin: 0 15px;
+ gap: 30px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+  /* .container {
+    padding-inline: 0;
+    max-width: 1199px;
+  } */
+  /* .craft-text h1{
+    text-wrap: nowrap;
+    } */
 }
 
 @media (max-width: 991px) {
-  .socil-icon a {
-    text-align: right;
-  font-size: 20px;
-  flex-direction: column;
-  /* margin-right: 10px; */
-  padding-left: 10px;
-  margin: 0;
-  flex-wrap: wrap;
-}
-  .mobile-btn {
-    display: block;
-    margin-right: 10px;
+  /* Header start */
+  .container {
+    padding-inline: 0;
+    max-width: 991px;
+    margin: auto;
   }
-
-   .nav-link {
-    display: none;
-  }
-  
-   .navbar {
+  .navbar {
     width: 100%;
     height: 74px;
     margin: 0;
@@ -62,54 +70,377 @@ xl  >=1199px
     align-items: center;
     text-align: center;
     border-radius: 0;
-  } 
-  
-.container {
-    padding-inline: 0;
-    max-width: 991px;
-    margin: auto;
   }
-  
-.flex-container{
-   /* position: sticky;
-        top: 0; */
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        text-align: center;
-        border-radius: 0;
-    }
- 
-
-  .craft-text h1 {
-    max-width: 600px;
-    color: #343F52;
-    font-size: 38px;
-    margin: auto;
-    text-align: center;
+  .nav-link {
+    display: none;
   }
-  
 
-  .craft-sec {
+  .flex-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    border-radius: 0;
+  }
+  .socil-icon {
+    margin-left: auto;
+    margin-right: 20px;
+  }
+  .socil-icon a {
+    text-align: right;
+    font-size: 20px;
     flex-direction: column;
+    margin-right: 10px;
+    padding-left: 20px;
+    margin: 0;
+    flex-wrap: wrap;
+  }
+  .mobile-btn {
+    display: block;
+    margin-right: 10px;
+  }
+  /* Header end*/
+
+  /* smart section start*/
+  .craft-text h1 {
+    max-width: 600px;
+    color: #343f52;
+    font-size: 38px;
+    margin: auto;
+    display: flex;
     text-align: center;
   }
-  
+  .craft-img img {
+    height: auto;
+    width: 100%;
+    padding-top: 100px;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  /* smart section end*/
+  /* service section start */
+  .service_main {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 100px 0;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .service_card_main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin: auto;
+    max-width: 1100px;
+  }
+  .service_text_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
+  .service_text {
+    margin-left: 100px;
+    max-width: 720px;
+    margin-top: 20px;
+  }
+  .service_text h3 {
+    font-size: 38px;
+    font-weight: bold;
+    color: #343f52;
+  }
+  .service_text :nth-child(2) {
+    max-width: 900px;
+    font-weight: 700;
+    margin-top: 20px;
+    line-height: 33px;
+    font-size: 26px;
+    color: #343f52b6;
+  }
+
+  .service_text :nth-child(3) {
+    max-width: 700px;
+    margin-top: 30px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    line-height: 30px;
+    font-size: 20px;
+    color: #343f52;
+  }
+
+  .service_text.button {
+    margin-top: 20px;
+    display: flex;
+    justify-content: left;
+  }
+  /* service section end */
+  /* Community section start */
+  .community_main {
+    max-width: 1320px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+    display: flex;
+  }
+  .community {
+    order: 2;
+    margin: auto;
+  }
+
+  .community {
+    height: auto;
+    max-width: 700px;
+    margin-top: 50px;
+  }
+  .community_text {
+    text-align: left;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-wrap: wrap;
+    display: flex;
+  }
+
+  .community_text h3 {
+    margin-left: 30px;
+    color: black;
+    font-weight: bold;
+    font-size: 34px;
+    margin-bottom: 15px;
+  }
+
+  .community_text :nth-child(2) {
+    font-size: 22px;
+    margin-left: 30px;
+    color: rgba(0, 0, 0, 0.596);
+    margin-bottom: 20px;
+    line-height: 33px;
+    font-weight: 600;
+  }
+  .community_text :nth-child(3) {
+    font-size: 18px;
+    margin-left: 30px;
+    font-weight: 500;
+    color: #6e7382;
+    line-height: 29px;
+    margin-bottom: 20px;
+  }
+
+  .detail {
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 615px;
+    height: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0 15px;
+    margin: auto;
+    order: 1;
+  }
+
+  .projects {
+    max-width: auto;
+    height: auto;
+    padding: 30px;
+    box-shadow: 0px 0px 20px rgba(7, 3, 3, 0.1);
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.51);
+    text-align: center;
+    justify-content: center;
+    position: relative;
+  }
+  .projects i {
+    /* font-size: 20px;
+  color: #5e6cea;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6f78c822;
+  border-radius: 100%; */
+    position: absolute;
+    top: 65px;
+    bottom: 0px;
+    left: 15px;
+    transform: translateY(-50%);
+  }
+  .customers {
+    max-width: auto;
+    height: auto;
+    padding: 30px;
+    box-shadow: 0px 0px 20px rgba(7, 3, 3, 0.1);
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.51);
+    text-align: center;
+    justify-content: center;
+    position: relative;
+  }
+  .customers i {
+    /* font-size: 20px;
+  color: red;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  text-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 0, 0, 0.151);
+  border-radius: 100%; */
+    position: absolute;
+    /* top: 65px; */
+    bottom: 0px;
+    left: 25px;
+    transform: translateY(-50%);
+  }
+
+  .employees {
+    max-width: auto;
+    height: auto;
+    padding: 30px;
+    box-shadow: 0px 0px 20px rgba(7, 3, 3, 0.1);
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.51);
+    text-align: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .employees i {
+    /* font-size: 20px;
+    color: rgb(255, 68, 0);
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: rgba(255, 166, 0, 0.293);
+    border-radius: 100%; */
+    position: absolute;
+    top: 65px;
+    bottom: 0px;
+    left: 25px;
+    transform: translateY(-50%);
+  }
+
+  .awards {
+    max-width: auto;
+    height: auto;
+    padding: 30px;
+    box-shadow: 0px 0px 20px rgba(7, 3, 3, 0.1);
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.51);
+    text-align: center;
+    justify-content: center;
+    position: relative;
+  }
+  .awards i {
+    /* font-size: 20px;
+    color: blue;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: rgba(0, 0, 255, 0.21);
+    border-radius: 100%; */
+    position: absolute;
+    top: 65px;
+    bottom: 0px;
+    left: 25px;
+    transform: translateY(-50%);
+  }
+  /* Community section end */
+
+  /* Our Recent Projects start */
+  .recent_title {
+    font-size: 38px;
+    color: rgb(46, 55, 70);
+    margin-bottom: 40px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .recent_projects_img img {
+    height: 280px;
+    max-width: 380px;
+    object-fit: cover;
+    border-radius: 20px;
+    display: flex;
+    height: auto;
+    gap: 30px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    object-fit: cover;
+    flex-direction: column;
+  }
+  .recent_projects_img {
+    margin: 0 15px;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+.arrow_left {
+  height: 40px;
+  width: 40px;
   
+}
+.arrow_right {
+  height: 40px;
+  width: 40px;
+  
+}
+  /* Our Recent Projects end */
+  /* Have Perfect Control start */
+
+.perfect_control {
+  /* max-width: 1360px; */
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  
+  justify-content: space-between;
+  margin-bottom: 160px;
+  gap: 50px;
+}
+.perfect_control_img img {
+  max-width: 800px;
+  height: auto;
+  margin-top: 50px;
+  padding: 0 35px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.perfect_control_text {
+  /* width: 495px; */
+  height: auto;
+}
+.tick_mark {
+  text-align: left;
+  display: flex;
+}
 }
 
 @media (max-width: 768px) {
   .craft-img img {
-  height: auto;
-  width: 100%;
-  padding-top: 100px;
-  object-fit: cover;
-  border-radius: 20px;
-  
-}
+    height: auto;
+    width: 100%;
+    padding-top: 100px;
+    object-fit: cover;
+    border-radius: 20px;
+  }
   .craft-text h1 {
     max-width: 600px;
     color: #343f52;
@@ -124,9 +455,8 @@ xl  >=1199px
   .container {
     max-width: 768px;
     padding-inline: 0;
-
   }
-  
+
   .mobile-btn {
     margin-right: 5px;
     text-wrap: nowrap;
@@ -152,11 +482,13 @@ xl  >=1199px
     margin: 0;
     max-width: 576px;
   }
-
 }
 
 @media (max-width: 480px) {
-  
+  .socil-icon a {
+    display: none;
+  }
+
   .container {
     padding-inline: 0;
     margin: 0;
@@ -167,7 +499,6 @@ xl  >=1199px
     max-width: 600px;
     color: #343f52;
     font-size: 34px;
-    
   }
   .craft-text p {
     max-width: 450px;
