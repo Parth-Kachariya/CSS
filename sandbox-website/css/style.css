@@ -654,17 +654,14 @@ a {
   width: 100%;
   display: flex;
   align-items: center;
-  /* flex-wrap: wrap;
-  flex-direction: column;
-  text-wrap: wrap; */
   justify-content: space-between;
   margin-bottom: 160px;
   gap: 50px;
 }
 
 .perfect_control_img img {
-  max-width: 650px;
-  height: 500px;
+  max-width: 700px;
+  height: auto;
   margin-top: 50px;
   padding: 0 35px;
   object-fit: cover;
@@ -672,7 +669,7 @@ a {
 }
 
 .perfect_control_text {
-  width: 495px;
+  max-width: 495px;
   height: auto;
 }
 .perfect_heading {
@@ -731,8 +728,8 @@ a {
 /* Why Choose Us section start */
 
 .business_process {
-  max-width: 1360px;
-  height: 520px;
+  max-width: 1320px;
+  height: auto;
   display: flex;
   margin-bottom: 160px;
 }
@@ -810,8 +807,8 @@ a {
   margin-top: 50px;
 }
 .business_img img {
-  width: 720px;
-  height: 480px;
+  max-width: 700px;
+  height: auto;
   object-fit: cover;
   border-radius: 10px;
 }
@@ -837,24 +834,25 @@ a {
   margin-bottom: 10px;
 }
 .customer_mainbox-1 {
-  width: 1320px;
+  max-width: 1320px;
   height: auto;
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
 .customer_mainbox-2 {
-  width: 1320px;
+  max-width: 1320px;
   height: auto;
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
+
 .customer_box1 {
   display: flex;
   margin-left: 30px;
   margin-top: 30px;
-  padding: o 15px;
-  height: 400px;
+  padding: 0 15px;
+  height: 450px;
   width: 390px;
   position: relative;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -862,8 +860,6 @@ a {
 }
 .child_box1 {
   padding: 40px;
-  height: auto;
-  width: 390px;
   line-height: 20px;
 }
 
@@ -894,7 +890,7 @@ a {
   position: absolute;
   z-index: -1;
   top: 60px;
-  left: 25px;
+  left: 40px;
   opacity: 0.5;
 }
 .person_data p {
@@ -928,7 +924,7 @@ a {
   margin-left: 30px;
   display: flex;
   margin-top: 30px;
-  padding: o 15px;
+  padding: 0 15px;
   height: auto;
   width: 390px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -940,8 +936,8 @@ a {
   margin-left: 30px;
   display: flex;
   margin-top: 30px;
-  padding: o 15px;
-  height: 400px;
+  padding: 0 15px;
+  height: 450px;
   width: 400px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
@@ -949,9 +945,9 @@ a {
 .customer_box4 {
   display: flex;
   margin-left: 30px;
-  margin-top: -65px;
-  padding: o 15px;
-  height: 430px;
+  margin-top: -80px;
+  padding: 0 15px;
+  height: 470px;
   width: 390px;
   position: relative;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -960,9 +956,9 @@ a {
 .customer_box5 {
   display: flex;
   margin-left: 30px;
-  margin-top: 30px;
-  padding: o 15px;
-  height: 400px;
+  margin-top: 35px;
+  padding: 0 15px;
+  height: 450px;
   width: 390px;
   position: relative;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -971,9 +967,9 @@ a {
 .customer_box6 {
   display: flex;
   margin-left: 30px;
-  margin-top: -65px;
-  padding: o 15px;
-  height: 400px;
+  margin-top: -80px;
+  padding: 0 15px;
+  height: 450px;
   width: 390px;
   position: relative;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
