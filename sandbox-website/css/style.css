@@ -209,8 +209,7 @@ a {
 .service_main {
   display: flex;
   padding: 100px 0;
-  /* flex-wrap: wrap;
-  flex-direction: column; */
+  
 }
 
 .service_card_main {
