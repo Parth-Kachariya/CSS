@@ -133,7 +133,7 @@ xl  >=1199px
     max-width: 1100px;
   }
   .service_text_box {
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
   }
@@ -150,7 +150,7 @@ xl  >=1199px
   }
   .service_text :nth-child(2) {
     max-width: 900px;
-    font-weight: 700;
+    font-weight: 500;
     margin-top: 20px;
     line-height: 33px;
     font-size: 26px;
@@ -160,7 +160,6 @@ xl  >=1199px
   .service_text :nth-child(3) {
     max-width: 700px;
     margin-top: 30px;
-    font-weight: 600;
     margin-bottom: 30px;
     line-height: 30px;
     font-size: 20px;
@@ -230,10 +229,8 @@ xl  >=1199px
     grid-template-columns: repeat(2, 1fr);
     width: 615px;
     height: auto;
-    flex-direction: column;
-    flex-wrap: wrap;
     padding: 0 15px;
-    margin: auto;
+    margin: auto ;
     order: 1;
   }
 
@@ -435,8 +432,7 @@ xl  >=1199px
   .business_text {
     max-width: 75%;
     margin: auto;
-  /* margin-top: 50px; */
-  /* padding: 0 35px; */
+  
 }
 /* Happy Customers section start */
 
@@ -444,33 +440,105 @@ xl  >=1199px
 }
 
 @media (max-width: 768px) {
-  .craft-img img {
-    height: auto;
-    width: 100%;
-    padding-top: 100px;
-    object-fit: cover;
-    border-radius: 20px;
-  }
+ /* smart section */
   .craft-text h1 {
     max-width: 600px;
     color: #343f52;
     font-size: 35px;
+    margin-bottom: 30px;
   }
 
   .craft-text p {
-    max-width: 600px;
+    width: auto;
     font-size: 24px;
-    /* font-size: 35px; */
+    padding:0  50px;
+    margin-bottom: 35px;
   }
-  .container {
-    max-width: 768px;
-    padding-inline: 0;
-  }
+ 
+  /* service section start  */
+  .service_main {
+  display: flex;
+  padding: 50px 0;
+}
+.service_card_main {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  max-width: 800px;
+}
+.service_text {
+  margin-left:0;
+  margin-top: 50px;
+}
+/*Community section start */
+.community {
+  height: auto;
+  max-width: 1320px;
+  margin-top: 30px;
+  padding: 0 15px;
+}
+.community_text {
+  text-align: left;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-wrap: wrap;
+  display: flex;
+  padding: 0 20px;
+}
+.community_text h3 {
+  margin-left: 0;
+}
+.community_text :nth-child(2) {
+  margin-left: 0;
+ 
+}
+.community_text :nth-child(3) {
+  margin-left: 0;
+  
+}
 
-  .mobile-btn {
-    margin-right: 5px;
-    text-wrap: nowrap;
-  }
+.detail {
+  gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 100%;
+  height: auto;
+  margin-top: 50px;
+  margin:0 auto;
+  padding: 0;
+}
+
+/*Our Recent Projects */
+.recent_projects_img img {
+  max-width: 350px;
+  display: flex;
+  height: auto;
+  gap: 20px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin: 0;
+}
+
+.perfect_control_text {
+  height: auto;
+  max-width: 1120px;
+  margin:auto;
+  padding-right: 30px;
+  padding-left: 30px;
+  
+}
+/* Why Choose Us section start */
+.business_text {
+   max-width: 100%;
+    /* margin: auto; */
+  margin:0;
+  padding: 0 35px;
+}
+
+/* .business_text_title {
+  max-width: 1320px;
+  height: auto;
+} */
 }
 
 @media (max-width: 576px) {
