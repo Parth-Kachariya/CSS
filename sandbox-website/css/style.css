@@ -697,6 +697,7 @@ a {
 }
 
 .tick_mark {
+  width: 80%;
   text-align: left;
   display: flex;
 }
@@ -994,7 +995,7 @@ a {
 .Subscribe_box {
   border: 2px solid #3648e9;
   border-radius: 10px;
-  background-image: url(/sandbox-website/asset/images/bg-img.jpg);
+  background-image: url(/asset/images/bg-img.jpg);
   background-size: cover;
   background-position: center;
   filter: brightness(0.8);
