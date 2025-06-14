@@ -7,7 +7,7 @@
 
 .contact_section{
   box-shadow:  0 0 8px rgba(0, 0, 0, 0.1);
-    background-image: url(/CSS-Final-Exam/Contact-Form/asset/images/jp_ce_contactform.jpg);
+    background-image: url(/CSS_Final_Exam/Contact-Form/asset/images/jp_ce_contactform.jpg);
     background-position: center;
     background: transparent;  
     margin: auto;
@@ -33,7 +33,7 @@
 
  /* Base styling */
 body {
-    background-image: url(/CSS-Final-Exam/Contact-Form/asset/images/bg-img.jpg);
+    background-image: url(/CSS_Final_Exam/Contact-Form/asset/images/bg-img.jpg);
     background-size: cover;
     background-repeat: no-repeat;
   font-family: Arial, sans-serif;
