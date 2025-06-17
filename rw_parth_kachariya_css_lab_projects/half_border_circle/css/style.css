@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1400px;
+  margin: auto;
+  height: 100vh;
+}
+.main_circle {
+  margin: 160px auto;
+  border-radius: 100%;
+  /* border: 2px solid red; */
+  border-left: 8px solid red;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+
+  width: 200px;
+  height: 200px;
+  background-color: black;
+}
+.child_circle {
+  margin: 40px auto;
+  border-radius: 100%;
+  border-right: 8px solid red;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(97, 39, 152);
+}
+
+/* border top */
+/* .child_circle {
+  margin: 40px auto;
+  border-radius: 100%;
+  border-top: 8px solid red;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(97, 39, 152);
+} */
+
+
+/* border bottom */
+/*  
