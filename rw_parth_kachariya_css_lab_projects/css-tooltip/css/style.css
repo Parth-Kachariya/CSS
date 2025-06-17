@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+.main_box{
+    height: 100vh ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.tooltip{
+    position: relative;
+}
+.name{
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px;
+    background-color: rgb(91, 161, 223);
+    border-radius: 20px;
+}
+
+.full_name{
+    /* position: absolute; */
+    top: -20px;
+    z-index: -1;
+}
