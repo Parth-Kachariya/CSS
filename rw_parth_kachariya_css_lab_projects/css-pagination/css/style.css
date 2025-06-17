@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  padding-bottom: 20px;
+}
+.container {
+  max-width: 1400px;
+  margin: auto;
+  text-align: center;
+}
+ul,
+li {
+  list-style-type: none;
+  display: flex;
+  text-align: center;
+  margin-left: 10px;
+}
+.pagination {
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+/* pagination-1 */
+.one a {
+  text-decoration: none;
+  padding: 20px;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  background-color: gainsboro;
+  border-radius: 20px;
+}
+
+.one a:hover {
+  background-color: gray;
+  color: wheat;
+}
+.one .open_page a {
+  background-color: gray;
+  color: wheat;
+}
+
+/* pagination-2 */
+.two a {
+  text-decoration: none;
+  padding: 15px;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-left: 10px;
+  border: 2px solid black;
+}
+.two a:hover {
+  border: 2px solid blue;
+  color: blue;
+  background-color: rgba(128, 128, 128, 0.21);
+}
+.two .open_page a {
+  border: 2px solid blue;
+  color: blue;
+  background-color: rgba(128, 128, 128, 0.21);
+}
+/* pagination-3 */
+.three a {
+  text-decoration: none;
+  padding: 18px;
+  padding-bottom: 10px;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  margin-left: 15px;
+  border-radius: 100%;
+  transform: translateY(0px);
+  transition: 0.3s;
+}
+.three a:hover {
+  border-bottom: 2px solid #007bff;
+  color: #007bff;
+  background-color: #007bff0d;
+  transform: translateY(-5px);
+  transition: 0.3s transform;
+  transition: 0.3s;
+}
+.three .open_page a {
+  border-bottom: 2px solid #007bff;
+  color: #007bff;
+  background-color: #007bff0e;
+  transform: translateY(-5px);
+  transition: 0.3s transform;
+}
+/* pagination-4 */
+.four a {
+  text-decoration: none;
+  padding: 18px;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  margin-left: 15px;
+  border: 2px solid rgba(128, 128, 128, 0.303);
+  border-radius: 20px 0px;
+  transition: 0.3s all;
+}
+.four a:hover {
+  box-shadow: 0px 0px 10px black;
+  background-color: rgba(128, 128, 128, 0.303);
+  border-radius: 0px 20px;
+  transition: 0.3s all;
+}
+.four .open_page a {
+  box-shadow: 0px 0px 10px black;
+  background-color: rgba(128, 128, 128, 0.303);
+  border-radius: 0px 20px;
+  transition: 0.3s all;
+}
+/* pagination-5 */
+.five a {
+  text-decoration: none;
+  padding: 18px;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  margin-left: 15px;
+  transition: 0.3s all;
+}
+.five a:hover {
+  background-color: rgba(128, 128, 128, 0.303);
+  transition: 0.3s all;
+}
+.five .open_page a {
+  background-color: rgba(128, 128, 128, 0.303);
+  transition: 0.3s all;
+}
